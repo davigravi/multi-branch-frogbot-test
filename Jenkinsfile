@@ -25,6 +25,7 @@ pipeline {
                     echo "JF_GIT_PULL_REQUEST_ID: ${env.JF_GIT_PULL_REQUEST_ID}"
                     echo "JF_GIT_OWNER: ${env.JF_GIT_OWNER}"
                     echo "TRIGGER_KEY: ${env.TRIGGER_KEY}"
+                    echo "test"
                     
                     // Print all environment variables
                     echo "All Environment Variables:"
